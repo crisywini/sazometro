@@ -130,7 +130,7 @@ struct FoodCardView: View {
                 Image(uiImage: uiImage)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 70, height: 70)
+                    .frame(width: 200, height: 200)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
             }else{
                 RoundedRectangle(cornerRadius: 10)
