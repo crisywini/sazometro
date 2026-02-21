@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		19D6B2DD2F4A70B4000E8853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1932607C2F48D3E00097FE25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 193260832F48D3E00097FE25;
+			remoteInfo = sazometro;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		193260842F48D3E00097FE25 /* sazometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sazometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D6B2D92F4A70B4000E8853 /* sazometroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sazometroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = sazometro;
 			sourceTree = "<group>";
 		};
+		19D6B2DA2F4A70B4000E8853 /* sazometroTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sazometroTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		193260812F48D3E00097FE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D6B2D62F4A70B4000E8853 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				193260862F48D3E00097FE25 /* sazometro */,
+				19D6B2DA2F4A70B4000E8853 /* sazometroTests */,
 				193260852F48D3E00097FE25 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				193260842F48D3E00097FE25 /* sazometro.app */,
+				19D6B2D92F4A70B4000E8853 /* sazometroTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 193260842F48D3E00097FE25 /* sazometro.app */;
 			productType = "com.apple.product-type.application";
 		};
+		19D6B2D82F4A70B4000E8853 /* sazometroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D6B2E12F4A70B4000E8853 /* Build configuration list for PBXNativeTarget "sazometroTests" */;
+			buildPhases = (
+				19D6B2D52F4A70B4000E8853 /* Sources */,
+				19D6B2D62F4A70B4000E8853 /* Frameworks */,
+				19D6B2D72F4A70B4000E8853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D6B2DE2F4A70B4000E8853 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				19D6B2DA2F4A70B4000E8853 /* sazometroTests */,
+			);
+			name = sazometroTests;
+			packageProductDependencies = (
+			);
+			productName = sazometroTests;
+			productReference = 19D6B2D92F4A70B4000E8853 /* sazometroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,10 @@
 				TargetAttributes = {
 					193260832F48D3E00097FE25 = {
 						CreatedOnToolsVersion = 26.2;
+					};
+					19D6B2D82F4A70B4000E8853 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 193260832F48D3E00097FE25;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				193260832F48D3E00097FE25 /* sazometro */,
+				19D6B2D82F4A70B4000E8853 /* sazometroTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		193260822F48D3E00097FE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D6B2D72F4A70B4000E8853 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19D6B2D52F4A70B4000E8853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19D6B2DE2F4A70B4000E8853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 193260832F48D3E00097FE25 /* sazometro */;
+			targetProxy = 19D6B2DD2F4A70B4000E8853 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1932608F2F48D3E10097FE25 /* Debug */ = {
@@ -310,6 +385,48 @@
 			};
 			name = Release;
 		};
+		19D6B2DF2F4A70B4000E8853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47D42Z95GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crisi.sazometroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sazometro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sazometro";
+			};
+			name = Debug;
+		};
+		19D6B2E02F4A70B4000E8853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47D42Z95GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crisi.sazometroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sazometro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sazometro";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +444,15 @@
 			buildConfigurations = (
 				193260922F48D3E10097FE25 /* Debug */,
 				193260932F48D3E10097FE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D6B2E12F4A70B4000E8853 /* Build configuration list for PBXNativeTarget "sazometroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D6B2DF2F4A70B4000E8853 /* Debug */,
+				19D6B2E02F4A70B4000E8853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
