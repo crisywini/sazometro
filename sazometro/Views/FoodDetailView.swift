@@ -97,7 +97,7 @@ struct FoodDetailView: View {
                 InfoBadge(
                     icon: "clock.fill",
                     label: "Time",
-                    value: String(format: "%.0f hours", food.estimateHoursMaking),
+                    value: food.estimateHoursMaking.formattedAsHours,
                     color: .blue
                 )
                 Spacer()
